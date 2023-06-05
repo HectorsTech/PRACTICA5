@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url(./imagenes/bg-mobile.svg);
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        background-image: url(./imagenes/bg-desktop.svg);
+    }
+    div.container {
+        display: inline-block;
+    }
+    div.container > div.pantalla {
+        position: relative;
+        top: 150px; left: 100px;
+    }
+    div.container > div.registro {
+        position: relative;
+        top: -77px; left: 620px;
+        text-align: left;
+        text-align: auto;
+        align-items: left;
+    }
+    .container > .social__media > img.social__image {
+        position: relative;
+        left: 855px; 
+    }
+}
+
+body {
+    background-color: rgba(103,75,176,255);
+
+}
+
+.container > .registro {
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+.container > .pantalla{
+    width: 364px;
+    height: 257px;
+
+}
+.container > .pantalla > img.size_image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container > .registro > button {
+    background-color: white;
+    border-radius: 22px;
+    width: 215px;
+    height: 37px;
+    color: rgba(103,75,176,255);
+    border-color: white;
+    box-shadow: 3px 3px 3px hsl(228, 45%, 44%, .15);
+    border: 0px;
+}
+
+.container > .social__media {
+    width: 364px;
+    height: 257px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: -100px; left: 27px;
+
+}
+
+.container > .social__media > img.social__image {
+    object-fit: cover;
+    width: 41px;
+    height: 41px; 
+    display: inline;
+    fill: white;
+
+}
+
